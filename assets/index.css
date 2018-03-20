@@ -1,0 +1,170 @@
+
+/*This is a part of the "Copycat" template series by Michael Price*/
+/*This template is based after the website https://www.codeavengers.com*/
+/*If you wish to contact me, message me on twitter. http://twitter.com/Michael_L_Price*/
+
+/* The prefix "cct" stands for "Copycat Template" btw */
+
+
+.cct-headernav{
+  position: fixed; /*Make the nav stick to the top*/
+  left:0px;right:0px;
+  height:60px;
+  z-index:999999;
+}
+
+
+
+.cct-headernav-dropdown1{
+  background-color:rgba(0,0,0,0.7);
+  padding:10px;
+  border-radius:5px;
+  color:#FFF;
+  z-index:999999;
+  position: fixed;
+  left:20px;
+  top:65px;
+  display:none;
+}
+.cct-headernav-dropdown1 a{
+  transition: all 0.3s; /*Make it so when we change opacity, it's gradual instead of instant*/
+  display:block;
+  padding:10px;
+  font-weight:bold;
+}
+.cct-headernav-dropdown1 a:hover{
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+
+
+.cct-header{
+  padding-top:60px;
+  height:300px;
+  overflow:hidden;
+  background-image:url("images/headerbackground.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.cct-header-profilepicture{
+  width:100px;
+  border-radius:100%;
+  margin-top:20px;
+  border:solid 2px #FFF;
+}
+.cct-header-username{
+  color:#FFF;
+  font-weight:bold;
+  font-size:20px;
+  text-shadow:4px 4px 8px rgba(0,0,0,0.20)
+  padding:10px;
+  border-radius:4px;transition:all 0.3s;
+}
+
+.cct-header-username:hover{
+  background-color:rgba(255,255,255,0.3)
+}
+
+
+/* Navigation Bar*/
+.cct-nav{
+  background:#FFF;
+  margin-top:30px;
+  box-shadow:0px 3px 0px rgba(0,0,0,0.20);
+  padding:20px;
+  border-radius:4px;
+}
+.cct-nav a{
+  padding:20px 20px;
+  color:#000;
+  font-weight:bold;
+  transition: all 0.3s;
+}
+.cct-nav a:hover{
+  text-decoration: none;
+  opacity: 0.4;
+}
+.cct-nav .cct-active{
+  border-bottom:solid 2px green;
+}
+
+
+
+
+/*
+Cards (OOO, My fav!)
+*/
+.cct-card{
+  border-radius:5px;
+  overflow:hidden;
+  box-shadow:0px 2px 0px rgba(0,0,0,0.40);
+  transition: all 0.3s;
+  background-color:#FFF;
+}
+.cct-card:hover{
+  box-shadow:0px 4px 0px rgba(0,0,0,0.40);
+}
+.cct-card-body{
+  height:200px;
+  overflow:hidden;
+  padding:30px;
+}
+
+.cct-card-body h1{
+  font-size:25px;
+  color:#000;
+  font-weight: bold;
+}
+
+.cct-card-text{
+  height:80px;
+  overflow:hidden;
+  font-size:15px;
+  color:rgba(0,0,0,0.50)
+}
+.cct-card-heading{
+  height:100px;
+  padding:10px;
+  overflow:hidden;
+  text-align: center;
+}
+.cct-card-heading img{
+  width:70px;
+  border-radius:3px;
+}
+
+.cct-card-footer{
+  padding:20px;
+}
+
+
+/*
+Footer
+*/
+
+
+.cct-footer{
+  background-color:#FFF;
+  min-height:300px;
+  margin-top:70px;
+}
+.cct-footer-header{
+  color:#000;
+  font-weight: bold;
+  font-size:15px;
+  margin-bottom:20px;
+}
+.cct-footer-mainhead{
+  font-size:50px!important;
+}
+.cct-footer a{
+  display:block;
+  color:rgba(0,0,0,0.7);
+  font-weight: bold;
+  font-size:13px;
+}
+.cct-footer a:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
